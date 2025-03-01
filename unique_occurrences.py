@@ -10,4 +10,5 @@ class Solution:
             else:
                 occurrences[n] += 1
 
-        return len(occurrences.values()) == len(set(occurrences.values()))
+        values = occurrences.values()
+        return len(values) == len(set(values))
