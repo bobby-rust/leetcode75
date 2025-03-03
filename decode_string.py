@@ -14,6 +14,7 @@ class Solution:
         return contents
         
     def decodeString(self, s: str) -> str:
+        # Base case
         if '[' not in s:
             return s
         result = ""
